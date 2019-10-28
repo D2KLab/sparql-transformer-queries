@@ -22,5 +22,13 @@
     "?countryOfBirth a dbo:Country",
     "?countryOfTeam a dbo:Country"
   ],
-  "$orderby": "?soccerplayer"
+  "$orderby": "?soccerplayer",
+  "grlc":   {
+    "summary":  "Soccer Players",
+    "endpoint": "http://dbpedia.org/sparql",
+    "tags": ["person"],
+    "method": "GET",
+    "pagination": 50
+    }
+
 }

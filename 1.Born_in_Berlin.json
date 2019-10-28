@@ -9,7 +9,7 @@
   "$where": "?person dbo:birthPlace dbr:Berlin",
   "$orderby": "?name",
   "grlc":   {
-    "summary":  "Testing SPARQL Transformer in grlc",
+    "summary":  "Person born in Berlin",
     "endpoint": "http://dbpedia.org/sparql",
     "tags": ["person"],
     "method": "GET",

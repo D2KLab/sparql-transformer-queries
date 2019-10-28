@@ -8,5 +8,13 @@
   "$where": [
     "?musician a dbo:MusicalArtist",
     "?musician dbo:birthPlace dbr:Germany"
-  ]
+  ],
+  "grlc":   {
+    "summary":  "German Musician",
+    "endpoint": "http://dbpedia.org/sparql",
+    "tags": ["person"],
+    "method": "GET",
+    "pagination": 50
+    }
+
 }

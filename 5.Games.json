@@ -4,5 +4,12 @@
     "title": "$foaf:name$required$var:title"
   },
   "$where": "?game a dbo:Game",
-  "$orderby": "?title"
+  "$orderby": "?title",
+  "grlc":   {
+    "summary":  "Games",
+    "endpoint": "http://dbpedia.org/sparql",
+    "tags": ["games"],
+    "method": "GET",
+    "pagination": 50
+    }
 }
