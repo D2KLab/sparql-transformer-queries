@@ -7,6 +7,12 @@
   },
   "$filter": "?birth < '1900-01-01'^^xsd:date",
   "$where": "?person dbo:birthPlace dbr:Berlin",
-  "$orderby": "?name"
+  "$orderby": "?name",
+  "grlc":   {
+    "summary":  "Testing SPARQL Transformer in grlc",
+    "endpoint": "http://dbpedia.org/sparql",
+    "tags": ["person"],
+    "method": "GET",
+    "pagination": 50
+    }
 }
-
