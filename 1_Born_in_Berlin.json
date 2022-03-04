@@ -15,7 +15,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
   },
   "grlc":   {
-    "summary":  "Person born in Berlin",
+    "summary":  "People born in Berlin",
     "endpoint": "http://dbpedia.org/sparql",
     "tags": ["person"],
     "method": "GET",
